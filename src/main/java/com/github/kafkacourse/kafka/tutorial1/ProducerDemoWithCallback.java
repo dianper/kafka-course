@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class ProducerDemoWithCallback {
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.getLogger(ProducerDemoWithCallback.class);
+        Logger logger = LoggerFactory.getLogger(ProducerDemoWithCallback.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
 
