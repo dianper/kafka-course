@@ -2,10 +2,14 @@
 
 ## Requirements
 
-- Java SDK 8
-- Apache Kafka
+- [Java JDK 8](https://www.oracle.com/ie/java/technologies/javase/javase-jdk8-downloads.html)
+- [Apache Kafka](https://kafka.apache.org/downloads)
+- [Intellij Community](https://www.jetbrains.com/idea/download/)
 
-## Running
+## Install
+- [Step-to-step](https://kafka.apache.org/quickstart)
+
+## Start the servers
 
 ```sh
 # start the zookeeper (Windows)
@@ -14,3 +18,11 @@
 # start the server
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 ```
+
+## Running on Intellij
+After starting the servers, you can run consumer and producer
+
+1. You can start multiple consumers and see that each consumer is reading from different partitions.
+
+## Reference
+- [Documentation](https://kafka.apache.org/)
