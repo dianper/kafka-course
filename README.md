@@ -7,7 +7,7 @@
 - [Intellij Community](https://www.jetbrains.com/idea/download/)
 
 ## Install
-- [Step-to-step](https://kafka.apache.org/quickstart)
+- [Step-by-step](https://kafka.apache.org/quickstart)
 
 ## Start the servers
 
