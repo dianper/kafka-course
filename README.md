@@ -1,5 +1,11 @@
 # Kafka Producer & Consumer
 
+Basic fundamentals of Kafka.
+
+- Topics
+- Consumer
+- Producer
+
 ## Requirements
 
 - [Java JDK 8](https://www.oracle.com/ie/java/technologies/javase/javase-jdk8-downloads.html)
